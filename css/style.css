@@ -1,10 +1,6 @@
 body{
     font-family: monospace;
     background-color: #ffcb8a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 
 h1{
@@ -15,8 +11,27 @@ p{
     color: #ff7000;
 }
 
-.box{
-    padding: 25px;
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1vh;
+    padding: 25px
+
+}
+
+.grid-item{
+    padding: 10px;
+    border: solid 2px #ff7000;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
     display: flex;
-    justify-content: ;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
 }

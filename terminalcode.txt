@@ -13,4 +13,5 @@ git status -- aponta os status do git
 git init -- inicia o git
 git add "oq vc quer" -- adiciona o que voce quer no commit
 git add . -- adiciona tudo
-
+git commit -m "comentario" -- commita tudo
+"comentario" = esse commite faz o que?
