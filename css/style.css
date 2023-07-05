@@ -1,0 +1,22 @@
+body{
+    font-family: monospace;
+    background-color: #ffcb8a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color:#a6350d;
+}
+
+p{
+    color: #ff7000;
+}
+
+.box{
+    padding: 25px;
+    display: flex;
+    justify-content: ;
+}

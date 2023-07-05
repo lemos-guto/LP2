@@ -1,0 +1,16 @@
+ls -- lista tudo
+cd // cd /home/estudante... -- escolhe aonde o terminal está
+cd .. -- volta um diretorio
+mkdir -- cria uma pasta
+pwd -- diz aonde voce está
+clean -- limpa o terminal
+code -- abre a pasta no vsc
+history -- mostra o historico dos codigos
+git config --global user.name "nome" -- define o nome do usuario que fez as alterações
+git config --global user.email "email" -- define o email do usuario 
+git config -l -- lista as coisas
+git status -- aponta os status do git
+git init -- inicia o git
+git add "oq vc quer" -- adiciona o que voce quer no commit
+git add . -- adiciona tudo
+
