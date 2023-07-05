@@ -13,8 +13,8 @@ git status -/- aponta os status do git
 git init -/- inicia o git
 git add "oq vc quer" -/- adiciona o que voce quer no commit
 git add . -/- adiciona tudo
-git commit -m "comentario" -/- commita tudo que estava no add
-"comentario" = esse commite faz o que?
+git commit -m "comentario" -/- commita tudo que estava no add -/- "comentario" = esse commite faz o que?
 git commit -m "comentario" -/-amend -///- muda o comentario do seu ultimo commit
 git restore -/-staged arquivo que voce nao quer comitar
-git reset HEAD ~1 -/- restaura o ultimo commit, como se n fosse feito
+git reset HEAD~1 -/- restaura o ultimo commit, como se n fosse feito
+git remote add origin endereço do git -/- configurar o servidor remoto para mantar os commits para la
