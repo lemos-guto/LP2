@@ -16,7 +16,7 @@ p{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 1vh;
-    padding: 25px
+    padding: 25px;
 
 }
 
